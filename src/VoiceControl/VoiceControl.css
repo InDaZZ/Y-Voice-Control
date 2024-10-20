@@ -22,6 +22,7 @@
 }
 
 .voicecontrol-container {
+  justify-content: center;
   box-sizing: border-box;
   padding: 30px 30px;
   display: grid;
