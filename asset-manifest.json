@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Y-Voice-Control/static/css/main.e5d4a2f5.css",
-    "main.js": "/Y-Voice-Control/static/js/main.f1429032.js",
+    "main.css": "/Y-Voice-Control/static/css/main.06809d4f.css",
+    "main.js": "/Y-Voice-Control/static/js/main.f98712d7.js",
     "static/js/453.704baf84.chunk.js": "/Y-Voice-Control/static/js/453.704baf84.chunk.js",
     "static/media/interface_img.png": "/Y-Voice-Control/static/media/interface_img.54d89aa7837718d6cfeb.png",
     "static/media/avatar.png": "/Y-Voice-Control/static/media/avatar.6efc06ff8df7e6cdc749.png",
@@ -11,12 +11,12 @@
     "static/media/montserrat-black.woff2": "/Y-Voice-Control/static/media/montserrat-black.2b78cacdacb95d26891d.woff2",
     "static/media/Frame 57.png": "/Y-Voice-Control/static/media/Frame 57.ddeacc8a7a9b63c668c5.png",
     "index.html": "/Y-Voice-Control/index.html",
-    "main.e5d4a2f5.css.map": "/Y-Voice-Control/static/css/main.e5d4a2f5.css.map",
-    "main.f1429032.js.map": "/Y-Voice-Control/static/js/main.f1429032.js.map",
+    "main.06809d4f.css.map": "/Y-Voice-Control/static/css/main.06809d4f.css.map",
+    "main.f98712d7.js.map": "/Y-Voice-Control/static/js/main.f98712d7.js.map",
     "453.704baf84.chunk.js.map": "/Y-Voice-Control/static/js/453.704baf84.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5d4a2f5.css",
-    "static/js/main.f1429032.js"
+    "static/css/main.06809d4f.css",
+    "static/js/main.f98712d7.js"
   ]
 }
