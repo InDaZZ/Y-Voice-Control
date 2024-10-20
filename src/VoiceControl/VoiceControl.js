@@ -6,6 +6,9 @@ import { useLayoutEffect, useEffect, useState, useRef } from "react";
 
 function VoiceControl({}) {
   const [width, setWidth] = useState(window.innerWidth);
+  useLayoutEffect(() => {
+    setWidth(window.innerWidth);
+  }, []);
 
   useEffect(() => {
     gsap

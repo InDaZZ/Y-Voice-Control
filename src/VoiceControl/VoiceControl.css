@@ -35,6 +35,8 @@
     padding: 10px 15px;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    max-width: 320px;
+    margin: auto;
   }
 }
 
