@@ -1,0 +1,229 @@
+.voicecontrol {
+  box-sizing: border-box;
+  background-color: #181818;
+  position: relative;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.voicecontrol::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../images/Frame\ 57.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.voicecontrol-container {
+  box-sizing: border-box;
+  padding: 30px 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 1fr 200px;
+}
+
+@media screen and (max-width: 350px) {
+  .voicecontrol-container {
+    padding: 10px 15px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .voicecontrol::before {
+    display: none;
+  }
+}
+
+.voicecontrol__title {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 20px;
+  margin: 0;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  text-wrap: nowrap;
+  align-content: center;
+  z-index: 10;
+}
+
+@media screen and (max-width: 350px) {
+  .voicecontrol__title {
+    font-size: 34px;
+    line-height: 34px;
+  }
+}
+.voicecontrol__title-title {
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 50.4px;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 350px) {
+  .voicecontrol__title-title {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.voicecontrol__description {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 37.4px;
+  grid-column-start: 1;
+  grid-row-start: 2;
+  z-index: 10;
+}
+
+@media screen and (max-width: 350px) {
+  .voicecontrol__description {
+    font-size: 16px;
+    line-height: 27.2px;
+  }
+}
+
+.voicecontrol__avatart-container {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  max-height: 80px;
+  width: 400px;
+  justify-self: center;
+  padding-top: 780px;
+  z-index: 10;
+}
+
+@media screen and (max-width: 350px) {
+  .voicecontrol__avatart-container {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 290px;
+    justify-self: auto;
+  }
+}
+
+.voicecontrol__black-hole {
+  width: 200px;
+  height: 80px;
+  border-radius: 100px/40px;
+  background-color: #000000;
+}
+
+@media screen and (max-width: 350px) {
+  .voicecontrol__black-hole {
+    width: 150px;
+    height: 70px;
+    border-radius: 85px / 40px;
+    background-color: #000000;
+  }
+}
+
+.voicecontrol__phrase {
+  grid-column-start: 1;
+  z-index: 10;
+  padding-top: 80px;
+}
+
+@media screen and (max-width: 350px) {
+  .voicecontrol__phrase {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    padding-top: 29px;
+  }
+}
+
+.voicecontrol__phrase-say {
+  font-weight: 900;
+  font-size: 44.79px;
+  line-height: 40.31px;
+}
+
+@media screen and (max-width: 350px) {
+  .voicecontrol__phrase-say {
+    font-size: 38.65px;
+    line-height: 34.79px;
+    margin-bottom: 30px;
+  }
+}
+
+.voicecontrol__phrases-container {
+  display: flex;
+  font-weight: 900;
+  font-size: 61.42px;
+  line-height: 55.27px;
+}
+
+@media screen and (max-width: 350px) {
+  .voicecontrol__phrases-container {
+    flex-direction: column;
+  }
+}
+
+.voicecontrol__phrase-ok {
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 350px) {
+  .voicecontrol__phrase-ok {
+    padding-left: 0;
+    margin-bottom: 20px;
+    font-size: 61.42px;
+    line-height: 34.79px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .voicecontrol__phrase-ymaguchi {
+    font-size: 49.86px;
+    line-height: 44.87px;
+  }
+}
+
+.voicecontrol__avatart {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 20px;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 350px) {
+  .voicecontrol__avatart {
+    height: 750px;
+    object-fit: cover;
+    max-width: 290px;
+  }
+}
+
+.voicecontrol__interface {
+  z-index: 10;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 350px) {
+  .voicecontrol__interface {
+    max-width: 296px;
+    max-height: 350px;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    margin-top: 15px;
+  }
+}
