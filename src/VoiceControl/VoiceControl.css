@@ -29,7 +29,7 @@
   grid-template-rows: 200px 1fr 200px;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .voicecontrol-container {
     padding: 10px 15px;
     grid-template-columns: 1fr;
@@ -37,7 +37,7 @@
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .voicecontrol::before {
     display: none;
   }
@@ -56,7 +56,7 @@
   z-index: 10;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .voicecontrol__title {
     font-size: 34px;
     line-height: 34px;
@@ -69,7 +69,7 @@
   margin-bottom: 25px;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .voicecontrol__title-title {
     font-size: 34px;
     line-height: 34px;
@@ -88,7 +88,7 @@
   z-index: 10;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .voicecontrol__description {
     font-size: 16px;
     line-height: 27.2px;
@@ -109,7 +109,7 @@
   z-index: 10;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .voicecontrol__avatart-container {
     grid-row-start: 3;
     grid-row-end: 4;
@@ -125,7 +125,7 @@
   background-color: #000000;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .voicecontrol__black-hole {
     width: 150px;
     height: 70px;
@@ -140,7 +140,7 @@
   padding-top: 80px;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .voicecontrol__phrase {
     grid-row-start: 5;
     grid-row-end: 6;
@@ -154,7 +154,7 @@
   line-height: 40.31px;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .voicecontrol__phrase-say {
     font-size: 38.65px;
     line-height: 34.79px;
@@ -169,7 +169,7 @@
   line-height: 55.27px;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .voicecontrol__phrases-container {
     flex-direction: column;
   }
@@ -179,7 +179,7 @@
   padding-left: 30px;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .voicecontrol__phrase-ok {
     padding-left: 0;
     margin-bottom: 20px;
@@ -188,7 +188,7 @@
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .voicecontrol__phrase-ymaguchi {
     font-size: 49.86px;
     line-height: 44.87px;
@@ -203,7 +203,7 @@
   pointer-events: none;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .voicecontrol__avatart {
     height: 750px;
     object-fit: cover;
@@ -218,7 +218,7 @@
   pointer-events: none;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .voicecontrol__interface {
     max-width: 296px;
     max-height: 350px;
